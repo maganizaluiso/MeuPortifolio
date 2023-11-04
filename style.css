@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    border: 0;
+    margin: 200px;
+    border: 100px;
     padding: 0;
 }
 
 header{
-    background-color: red;
+    background-color:red;
     width: 100hw;
     height: 100vh;
 }
 
 div{
-    background-color: blue;
+    background-color: white;
 }
