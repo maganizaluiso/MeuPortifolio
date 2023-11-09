@@ -1,15 +1,55 @@
 * {
-    margin: 200px;
-    border: 100px;
+    margin: 0;
+    border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+body{
+
     background-color:red;
-    width: 100hw;
+    width: 100vw;
     height: 100vh;
 }
 
-div{
+
+header{
     background-color: white;
+    width: 100vw;
+    height: 200px;
 }
+
+#meunome{
+    width: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+#meunome h1 {
+    margin: 25px;
+}
+
+#meunome h2 {
+    margin: 20px;
+    width: 1000000px;
+
+}
+
+
+
+#aboutMe {
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+
+
+#aboutMe h3 {
+    margin: 25px;
+    padding-left: 20px;
+}
+
