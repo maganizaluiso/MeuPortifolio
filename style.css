@@ -1,15 +1,85 @@
 * {
-    margin: 200px;
-    border: 100px;
+    margin: 0;
+    border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+body{
+
     background-color:red;
-    width: 100hw;
+    width: 100vw;
     height: 100vh;
 }
 
-div{
+
+header{
     background-color: white;
+    width: 100vw;
+    height: 200px;
 }
+
+#telaInicial {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+#meunome{
+    width: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+    color: black;
+    justify-content: flex-start;
+}
+
+#meunome h1 {
+    margin: 25px;
+}
+
+#meunome h2 {
+    margin: 20px;
+    width: 1000000px;
+
+}
+
+
+
+#aboutMe {
+    width: 200px;
+    background-color: white;
+    color: black;
+}
+
+
+#aboutMe h3 {
+    justify-content: center;
+}
+
+
+#redes {
+    background-color: white;
+    width: 150px;
+    margin: 50px;
+}
+
+#paginaDois {
+    height: 700px;
+}
+
+#paginaDois h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#texto1 {
+    background-color: white;
+    display: flex;
+    width: 150px;
+
+}
+
