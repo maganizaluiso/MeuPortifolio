@@ -3,13 +3,16 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
-
-    background-color:red;
     width: 100vw;
     height: 100vh;
+    background-image: url("./assets/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -40,19 +43,18 @@ header{
     align-items: center;
 }
 
-#meunome h1 {
-    
-}
-
-#meunome h2 {
-    
-
+#textosP1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 
 
 #aboutMe {
-    width: 200px;
+    width: 300px;
     background-color: white;
     color: black;
 }
@@ -94,16 +96,21 @@ header{
 #texto1 {
     background-color: white;
     display: flex;
-    width: 250px;
+    width: 300px;
     /* justify-content: center; */
 
 }
 
-#tituloUm {
-    width: 50%;
+#fotoAdicional {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 220px;
+    justify-content: center;
+    margin: 10px;
+}
+
+#tituloUm {
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 #caixaMaior {
@@ -123,7 +130,9 @@ header{
 
 #textoUm {
     background-color: white;
-    width: 170px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 #caixaMetade2 {
