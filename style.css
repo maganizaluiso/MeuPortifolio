@@ -15,20 +15,33 @@ body{
     background-size: cover;
 }
 
+h2 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#paginaTres h1 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
 
 header{
     background-color: white;
     width: 100vw;
-    height: 200px;
+    height: 20vhx;
     /* display: flex;
     justify-content: space-around; */
 }
 
 #telaInicial {
-    height: 700px;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+p {
+    text-align: center;
 }
 
 
@@ -55,13 +68,19 @@ header{
 
 #aboutMe {
     width: 300px;
-    background-color: white;
+    background-color: rgba(255,255,255, 0.7);
     color: black;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 
 #aboutMe h3 {
     justify-content: center;
+}
+
+#fotoDePerfil {
+    border-radius: 20px;
 }
 
 #contatos {
@@ -73,13 +92,18 @@ header{
 
 
 #redes {
-    background-color: white;
-    
+    /* background-color: white; */
+    border-radius: 10px;
     margin: 50px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 20px;
 }
 
 #paginaDois {
-    height: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #paginaDois h2 {
@@ -94,17 +118,23 @@ header{
 }
 
 #texto1 {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     width: 300px;
     /* justify-content: center; */
-
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 20px;
 }
 
 #fotoAdicional {
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+#paginaTres {
+    height: 100vh;
 }
 
 #tituloUm {
@@ -117,22 +147,29 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    align-items: center;
 }
 
 #caixaMetade1 {
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
 #textoUm {
-    background-color: white;
-    width: 200px;
+    /* background-color: white; */
+    width: 300px;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 20px;
 }
 
 #caixaMetade2 {
@@ -143,12 +180,15 @@ header{
 }
 
 #textoDois {
-    width: 170px;
-    background-color: white;
-
+    width: 300px;
+    /* background-color: white; */
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 20px;
 }
 
 #fotoDois {
     display: flex;
+    border-radius: 10px;
 }
 
